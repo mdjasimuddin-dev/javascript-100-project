@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    clear: both;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+}
+
+
+.card {
+    width: 30%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 50px auto;
+    clear: both;
+}
+
+
+.title {
+    background-color: rgb(36, 36, 255);
+    color: 150px;
+    color: white;
+    line-height: 50px;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    clear: both;
+}
+
+.input-body {
+    padding: 15px 0px;
+    line-height: 50px;
+    clear: both;
+}
+
+
+.input {
+    border: 2px solid gray;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    width: 95%;
+    font-size: 18px;
+    clear: both;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.button {
+    background-color: red;
+    color: white;
+    padding: 5px 50px;
+    border: 1px solid white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+
+.result-body {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 15px 10px;
+    font-size: 18px;
+    border: 2px solid gray;
+}
+
+
+.result {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.p {
+    margin: 0px 3px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.bg-red {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.bg-green {
+    background-color: rgb(1, 148, 38);
+    color: white;
+}
+
+.bg-blue {
+    background-color: rgb(4, 68, 245);
+    color: white;
+}
