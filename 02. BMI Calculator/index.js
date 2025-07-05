@@ -19,6 +19,14 @@ function calculateBmi(e) {
     let totalHeight = feet + inch
     let weight = parseInt(inputWeight.value)
 
+
+    // error handle 
+    if (weight === "" || isNaN(weight)) {
+        alert('Please provide a valid weight')
+    } else if (feet && inch === "" || isNaN(feet) || isNaN(inch)) {
+        alert('Please provide a valid height')
+    }
+
     let BMI = weight / (totalHeight * totalHeight)
 
     displayResult(BMI)
