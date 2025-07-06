@@ -1,0 +1,54 @@
+.btn {
+    font-size: 25px;
+    padding: 5px 30px;
+    margin-right: 5px;
+}
+
+.btnAdd:hover, .btnSub:hover, .btnReset:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 5px 10px rgb(8, 8, 8);
+}
+
+
+.card {
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+    margin: 200px auto;
+    width: 30%;
+    justify-content: center;
+}
+
+.title {
+    background-color: green;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0F;
+}
+
+
+.btn-group {
+    text-align: center;
+}
+
+
+.result {
+    font-size: 36px;
+    text-align: center;
+}
+
+
+.bg-red {
+    background-color: red;
+    color: white;
+}
+
+.bg-green {
+    background-color: green;
+    color: white;
+}
+
+.bg-blue {
+    background-color: blue;
+    color: white;
+}
