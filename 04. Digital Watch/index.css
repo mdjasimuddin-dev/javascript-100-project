@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+  body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('./images/background-image.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron', monospace;
+    color: #ffffff;
+  }
+
+  .digital-watch {
+    background: #222222;
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow:
+      0 0 20px #00ffea,
+      inset 0 0 20px #00ffea;
+    text-align: center;
+    user-select: none;
+    width: 500px;
+  }
+
+  .time {
+    font-size: 26px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+  }
+
+  .seconds {
+    font-size: 36px;
+    vertical-align: super;
+    margin-left: 5px;
+  }
+
+  .date {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #00b5a7;
+  }
+
+
+  .flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .flex p {
+    margin-right: 10px;
+  }
+
+
