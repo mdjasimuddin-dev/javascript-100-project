@@ -10,7 +10,7 @@ function getDay() {
     ];
 
     const days = [
-        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+        "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",
     ];
 
     let day = days[d.getDay()]
@@ -41,9 +41,9 @@ function getTime() {
 
     let ampm = h > 12 ? 'PM' : 'AM';
     h = h % 12 || 12;
-    h = h < 10 ? '0'+h : h;
-    m = m < 10 ? '0'+m : m;
-    s = s < 10 ? '0'+s : s;
+    h = h < 10 ? '0' + h : h;
+    m = m < 10 ? '0' + m : m;
+    s = s < 10 ? '0' + s : s;
 
 
     const time = `${h} : ${m} : ${s} ${ampm}`
